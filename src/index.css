@@ -1,0 +1,156 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  /*   line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+   */
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: papayawhip;  
+
+}
+.container {
+  background-color: #f1ede8;  
+
+  border-radius: 5px;
+  padding: 20px;
+  width: 220px;
+  height: 360px;
+  overflow: hidden;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+
+
+input {
+  padding: 0.6em 1.2em;
+  margin: 5px 0px;
+  border: 1px solid hwb(0 56% 44%);
+  border-radius: 5px;
+  width: 20%;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+}
+
+input:focus {
+  outline: none;
+}
+.avatarImg {
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+
+}
+
+.imgContainer {
+  width: 100%;
+  height: 220px;
+  object-fit: contain;
+}
+
+.masContai {
+  min-height: 100vh;
+  display: flex;
+  flex-shrink: 0;
+  flex-wrap: wrap;
+  margin: 20px 120px;
+  list-style: none;
+  padding: 0;
+  max-width: 980px;
+  gap: 20px;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid hwb(0 56% 44%);
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  cursor: pointer;
+  transition: 0.3s;
+  
+}
+button:hover {
+  border-color: hwb(0 75% 25%);
+  color: hwb(0 75% 25%);
+  transition: 0.3s;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+.containerText{
+  text-align: left;
+  padding: 10px 0px;
+}
